@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #f0683f;
+    color: white;
+    padding: 20px 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+
+
+.checkout-container {
+    background-color: white;
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.checkout-container h1 {
+    text-align: center;
+    color: #a33b1d;
+    margin-bottom: 10px;
+}
+
+.checkout-container p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+#checkout-total {
+    color: #a33b1d;
+    margin: 25px 0 15px;
+}
+
+
+button {
+    width: 100%;
+    padding: 13px;
+    background-color: #f0683f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d9532b;
+}
+
+@media (max-width: 500px) {
+    .checkout-container {
+        margin: 25px 15px;
+    }
+
+    header {
+        padding: 15px;
+    }
+}
+
+body {
+    background-color: #F4F3FC;
+}
+
+header,
+footer {
+    background-color: #25213D;
+}
+
+.logo h2 {
+    color: #A99BFF;
+}
+
+button,
+.shop-btn {
+    background-color: #5B4BDB;
+    color: white;
+}
+
+button:hover,
+.shop-btn:hover {
+    background-color: #4435B5;
+}
+
+nav a:hover {
+    color: #A99BFF;
+}
+
+
+.shopora-footer {
+    background-color: #25213D;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 50px;
+}
+
+.shopora-footer h2 {
+    color: #A99BFF;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.shopora-footer p {
+    margin: 12px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 20px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    color: #A99BFF;
+}
+
+.copyright {
+    border-top: 1px solid #514B6C;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .shopora-footer {
+        padding: 25px 10px;
+    }
+
+    .footer-links {
+        gap: 15px;
+    }
+
+    .footer-links a {
+        font-size: 14px;
+    }
+
+}
